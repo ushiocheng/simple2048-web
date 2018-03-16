@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bgColor{
+	align-content: center;
+	background-color: #D4DCFF;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.mainContainer{
+	background-color: #D4DCFF;
+	width: 40%;
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	height: 100%;
+	padding: 5%;
+	padding-top: 1%;
+	padding-bottom: 10%;
+}
+
+#title	{
+	color: rgb(255, 150, 160);
+	font-size: 56px;
+	font-family: "Wawati SC Regular", "PingFang SC Thin", Arial;
+}
+
+#intro	{
+	color: rgb(255, 160, 170);
+	font-size: 24px;
+	font-family: "Wawati SC Regular", "PingFang SC Thin", Arial;
+}
+
+.gameContainer	{
+	padding: 1%;
+	background-color: #B4C2FF;
+}
+
+
+
+#gameBg	{
+	width: 100%;
+}
+
+#gameResetBtn	{
+	width: 22%;
+	position: absolute;
+	top: 240px;
+	left: 64%;
+}
+
+#scoreNum	{
+	position: absolute;
+	top: 270px;
+	left: 45%;
+	font-family: "Wawati SC Regular", "PingFang SC Thin", Arial;
+	font-size: 45px;
+	color: rgb(255, 150, 160);
+}
+
+
+
+/*Matrix*/
+.matrix	{
+	z-index: 100;
+	width: 79.2%;
+	position: absolute;
+	top: 327px;
+	left: 10.2%;
+}
+.loadP {
+	width: 0;
+	height: 0;
+	z-index: -1;
+}
