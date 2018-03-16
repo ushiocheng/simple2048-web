@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>2048</title>
+<link rel="stylesheet" href="css/main.css"/>
+<script src="js/main.js"></script>
+</head>
+
+<body onLoad="init();">
+<div class="bgWrapper">
+  <div class="bgColor"></div>
+  <div class="mainContainer">
+    <div class="header">
+      <h1 id="title">2048</h1>
+      <p id="intro">Join the numbers and get to the 2048 tile!</p>
+    </div>
+    <div class="gameContainer">
+      <div class="game"> <img id="gameBg" src="img-svg/Main UI.svg" alt="Error!(mainUIBG)"/>
+        <input id="gameResetBtn" type="image" src="img-svg/Btn_R.svg" alt="Error!(imgReplay)" onClick="restart();"/>
+        <div class="matrix">
+          <table id="matrixGroup" width="100%" border="0" cellpadding="0" cellspacing="15">
+            <tbody>
+              <tr>
+                <td><img id="imgArray11" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray12" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray13" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray14" src="img-svg/PWR0.svg" alt="Err!"/></td>
+              </tr>
+              <tr>
+                <td><img id="imgArray21" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray22" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray23" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray24" src="img-svg/PWR0.svg" alt="Err!"/></td>
+              </tr>
+              <tr>
+                <td><img id="imgArray31" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray32" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray33" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray34" src="img-svg/PWR0.svg" alt="Err!"/></td>
+              </tr>
+              <tr>
+                <td><img id="imgArray41" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray42" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray43" src="img-svg/PWR0.svg" alt="Err!"/></td>
+                <td><img id="imgArray44" src="img-svg/PWR0.svg" alt="Err!"/></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="scoreDisp"><a id="scoreNum">000000</a> </div>
+	  <div class="loadP">
+		  <img src="img-svg/PWR0.svg" alt="Error!">
+		  <img src="img-svg/PWR1.svg" alt="Error!">
+		  <img src="img-svg/PWR2.svg" alt="Error!">
+		  <img src="img-svg/PWR3.svg" alt="Error!">
+		  <img src="img-svg/PWR4.svg" alt="Error!">
+		  <img src="img-svg/PWR5.svg" alt="Error!">
+		  <img src="img-svg/PWR6.svg" alt="Error!">
+		  <img src="img-svg/PWR7.svg" alt="Error!">
+		  <img src="img-svg/PWR8.svg" alt="Error!">
+		  <img src="img-svg/PWR9.svg" alt="Error!">
+		  <img src="img-svg/PWR10.svg" alt="Error!">
+		  <img src="img-svg/PWR11.svg" alt="Error!">
+		  <img src="img-svg/PWR12.svg" alt="Error!">
+	  </div>
+  </div>
+</div>
+</body>
+</html>
